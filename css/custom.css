@@ -7,3 +7,9 @@
 h1.title{
   border:1px solid red;
 }
+.searchtempest-home .sites{
+  float:left;
+}
+.searchtempest-home ul.sites li{
+  display:inline;
+}
