@@ -53,3 +53,6 @@ body.searchtempest-home .icons li{
   display: inline;
   padding: 0 0.5em;
 }
+.navigation .navigation-list {
+  float:left;
+}
