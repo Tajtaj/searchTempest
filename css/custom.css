@@ -45,3 +45,11 @@ body.searchtempest-home ul.navigation-list li{
   float: left;
   padding: 0 0.5em;
 }
+body.searchtempest-home .icons {
+  float: right;
+  margin: 0 0 0 2em;
+}
+body.searchtempest-home .icons li{
+  display: inline;
+  padding: 0 0.5em;
+}
