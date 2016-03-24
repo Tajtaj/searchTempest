@@ -23,11 +23,12 @@ h1.title{
   font-weight: bold;
   height: 27px;
   margin: 0 0 5px;
-  min-width: 960px;
   padding: 0.5em 0;
 }
 .searchtempest-home .navigation .container {
   max-width: 960px;
+  min-width: 960px;
+  width: 960px;
 }
 body.searchtempest-home{
   font-family: helvetica,arial,sans-serif;
@@ -45,4 +46,7 @@ body.searchtempest-home ol, body.searchtempest-home ul, body.searchtempest-home 
 body.searchtempest-home .sites li{
   float: left;
   padding: 0 0.5em;
+}
+body.searchtempest-home a:hover{
+  text-decoration:underline;
 }
