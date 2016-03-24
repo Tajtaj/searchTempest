@@ -97,3 +97,10 @@ body.searchtempest-home .header-main .blurb {
   color: #666;
   font: italic 1.5em/1.1em Georgia,"times new roman",serif;
 }
+
+body.searchtempest-home .site-footer .wrapper{
+  margin: 0 auto;
+  width: 960px;
+  font-size: 11px;
+  padding: 1px 10px 10px;
+}
