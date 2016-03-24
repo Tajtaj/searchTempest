@@ -4,40 +4,18 @@
 
     
     <div class="container">
-      <div class="row">
-        <div class="column">
-          <h2 class="footer-heading">{{ site.title }}</h2>
+		<div class="links">
+            <a href="/">Home</a> ·
+            <a href="/about">About</a> ·
+            <a href="/ext/tempestblog.com/news">New and Soon Blog</a> ·
+            <a href="/help/privacy">Privacy/Legal</a> ·
+            <a href="http://support.searchtempest.com/hc/">Help</a> ·
+            <a href="/contact">Contact</a>
+        </div>
+		<div class="copy-info">
+            &copy;2006-2016 SearchTempest<br>SearchTempest.com is in no way affiliated with craigslist&reg;
         </div>
 
-        <div class="column">
-          <ul class="social-media-list">
-            {% if site.github_username %}
-            <li>
-              {% include icon-github.html username=site.github_username %}
-            </li>
-            {% endif %}
-
-            {% if site.twitter_username %}
-            <li>
-              {% include icon-twitter.html username=site.twitter_username %}
-            </li>
-            {% endif %}
-
-            {% if site.twitter_username %}
-            <li>
-              {% include icon-mail.html username=site.email %}
-            </li>
-            {% endif %}
-          </ul>
-        </div>
-
-
-      </div>
-      <div class="row">
-        <div class="column-50">
-          <p>{{ site.description }}</p>
-        </div>
-      </div>
     </div>  
   </div>
 
