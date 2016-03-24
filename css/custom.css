@@ -29,3 +29,7 @@ h1.title{
 .searchtempest-home .navigation .container {
   max-width: 960px;
 }
+body.searchtempest-home{
+  font-family: helvetica,arial,sans-serif;
+  line-height: 1;
+}
