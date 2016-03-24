@@ -63,6 +63,10 @@ body.searchtempest-home .icons li{
 .icons li a:hover{
   text-decoration:none;
 }
+body.searchtempest-home .header-main{
+  margin-bottom: 0.5em;
+  width: 830px;
+}
 .header-main h1{
   display:inline-block;
   margin-bottom: 0;
@@ -74,4 +78,8 @@ body.searchtempest-home .icons li{
   height: 87px;
   text-indent: -9999px;
   width: 531px;
+}
+.page-content .header-main{
+  width: 830px;
+  margin-left:0 auto;
 }
