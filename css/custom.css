@@ -63,3 +63,15 @@ body.searchtempest-home .icons li{
 .icons li a:hover{
   text-decoration:none;
 }
+.header-main h1{
+  display:inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+.header-main h1 a{
+  background: rgba(0, 0, 0, 0) url("../images/searchtempest.png") no-repeat scroll left top;
+  display: inline-block;
+  height: 87px;
+  text-indent: -9999px;
+  width: 531px;
+}
