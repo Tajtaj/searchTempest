@@ -83,3 +83,16 @@ body.searchtempest-home .header-main{
   width: 830px;
   margin:0 auto;
 }
+body.searchtempest-home .header-main .blurb {
+  bottom: -1rem;
+  margin-left: 1.2em;
+  padding-left: 1em;
+  position: relative;
+  text-indent: -1em;
+  vertical-align: middle;
+  width: 235px;
+}
+body.searchtempest-home .header-main .blurb {
+  color: #666;
+  font: italic 1.5em/1.1em Georgia,"times new roman",serif;
+}
