@@ -13,3 +13,13 @@ h1.title{
 .searchtempest-home ul.sites li{
   display:inline;
 }
+.searchtempest-home .navigation{
+  background: #eee none repeat scroll 0 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.8em;
+  font-weight: bold;
+  height: 13px;
+  margin: 0 0 5px;
+  min-width: 1000px;
+  padding: 0.5em 0;
+}
