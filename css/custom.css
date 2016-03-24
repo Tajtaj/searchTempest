@@ -84,6 +84,7 @@ body.searchtempest-home .header-main{
   margin:0 auto;
 }
 body.searchtempest-home .header-main .blurb {
+  display:inline-block;
   bottom: -1rem;
   margin-left: 1.2em;
   padding-left: 1em;
