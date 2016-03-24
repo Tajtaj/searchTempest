@@ -59,6 +59,6 @@ body.searchtempest-home .icons li{
 .navigation .navigation-list {
   float:left;
 }
-.icons li:hover{
+.icons li a:hover{
   text-decoration:none;
 }
