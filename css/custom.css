@@ -50,3 +50,7 @@ body.searchtempest-home .sites li{
 body.searchtempest-home a:hover{
   text-decoration:underline;
 }
+body.searchtempest-home ul.navigation-list li{
+  float: left;
+  padding: 0 0.5em;
+}
