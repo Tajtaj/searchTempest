@@ -42,3 +42,7 @@ body.searchtempest-home ol, body.searchtempest-home ul, body.searchtempest-home 
   padding: 0;
   vertical-align: baseline;
 }
+body.searchtempest-home .sites li{
+  float: left;
+  padding: 0 0.5em;
+}
