@@ -104,3 +104,7 @@ body.searchtempest-home .site-footer .wrapper{
   font-size: 11px;
   padding: 1px 10px 10px;
 }
+body.searchtempest-home .main-content-area{
+  width:900px;
+  margin:0 auto;
+}
