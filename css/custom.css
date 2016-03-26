@@ -143,3 +143,16 @@ body.searchtempest-home .form-container .post-label {
   display: inline-block;
   line-height: 35px;
 }
+.price-container{
+  display:inline-block;
+  width:100%;
+}
+.price-container #minAsk8{
+  float:left;
+  width:48%;
+  margin-right:15px;
+}
+.price-container #maxAsk8{
+  float:left;
+  width:48%;
+}
