@@ -134,6 +134,9 @@ body.searchtempest-home input[type="reset"], body.searchtempest-home input[type=
   display: inline-block;
   width: 100%;
 }
+body.searchtempest-home .form-container form{
+  margin-bottom:0rem;
+}
 body.searchtempest-home .form-container select {
   float: left;
   margin-right: 15px;
