@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	console.log("Ready...");
+	var i;
 	var cities = [
 			"atlanta",
 			"austin",
@@ -25,7 +26,7 @@ $(document).ready(function(){
 			"sfbay",
 			"washingtondc"
 		]
-	for(int i=0;i<cities.length;i++){
+	for(i=0;i<cities.length;i++){
 		console.log(cities[i]);
 	}
 });
