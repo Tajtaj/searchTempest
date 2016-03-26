@@ -37,8 +37,8 @@ $(document).ready(function(){
 		var max_price = $("#maxAsk8").val();
 		var min_year = $("#minYear8").val();
 		var max_year = $("#maxYear8").val();
-		console.log("Location:"+location+"<br> Search:"+search_string+"<br> Min price:"+min_price+"<br> Max price"+max_price
-		+"<br> Min year:"+min_year+"<br> Max year:"+max_year+"<br>"
+		console.log("Location:"+location+"\n Search:"+search_string+"\n Min price:"+min_price+"\n Max price"+max_price
+		+"\n Min year:"+min_year+"\n Max year:"+max_year+"\n"
 		);
 		return false;
 	});
