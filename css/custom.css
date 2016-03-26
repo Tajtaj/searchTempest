@@ -1,7 +1,7 @@
 .searchtempest-home input[type="email"]:focus, .searchtempest-home input[type="number"]:focus, .searchtempest-home input[type="password"]:focus, 
 .searchtempest-home input[type="search"]:focus, .searchtempest-home input[type="tel"]:focus, .searchtempest-home input[type="text"]:focus, 
 .searchtempest-home input[type="url"]:focus, .searchtempest-home textarea:focus, .searchtempest-home select:focus {
-//  border: 0.1rem solid #ccc;
+  /*border: 0.1rem solid #ccc;*/
 }
 .searchtempest-home ul,.searchtempest-home ol{
   margin:0px
@@ -116,6 +116,17 @@ body.searchtempest-home .main-content-area{
 .site-footer .links{
   margin: 5px 0;
 }
-body.searchtempest-home .form-container{
-  border:1px solid red;
+body.searchtempest-home .form-container {
+  background: #eee;
+  padding: 15px;
+}
+body.searchtempest-home input[type="email"], body.searchtempest-home input[type="number"], 
+body.searchtempest-home input[type="password"], body.searchtempest-home input[type="search"], 
+body.searchtempest-home input[type="tel"], body.searchtempest-home input[type="text"], 
+body.searchtempest-home input[type="url"], body.searchtempest-home textarea, body.searchtempest-home select {
+  background-color: #ffffff;
+}
+body.searchtempest-home .button, body.searchtempest-home button, body.searchtempest-home input[type="button"], 
+body.searchtempest-home input[type="reset"], body.searchtempest-home input[type="submit"] {
+  background: #606c76;
 }
