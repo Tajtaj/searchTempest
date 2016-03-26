@@ -149,10 +149,23 @@ body.searchtempest-home .form-container .post-label {
 }
 .price-container #minAsk8{
   float:left;
-  width:48%;
+  width:49%;
   margin-right:15px;
 }
 .price-container #maxAsk8{
   float:left;
-  width:48%;
+  width:49%;
+}
+.year-container{
+  display:inline-block;
+  width:100%;
+}
+.year-container #minYear8{
+  float:left;
+  width:49%;
+  margin-right:15px;
+}
+.year-container #maxYear8{
+  float:left;
+  width:49%;
 }
