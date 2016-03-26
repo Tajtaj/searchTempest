@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	console.log("Ready...");
-	var i;
 	var cities = {
 			30301:"atlanta",
 			73301:"austin",
