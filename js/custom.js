@@ -40,6 +40,7 @@ $(document).ready(function(){
 		console.log("Location:"+location+"<br> Search:"+search_string+"<br> Min price:"+min_price+"<br> Max price"+max_price
 		+"<br> Min year:"+min_year+"<br> Max year:"+max_year+"<br>"
 		);
+		return false;
 	});
 	
 	
