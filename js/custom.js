@@ -27,6 +27,8 @@ $(document).ready(function(){
 			"washingtondc"
 		]
 	for(i=0;i<cities.length;i++){
-		console.log(cities[i]);
+		//console.log(cities[i]);
 	}
+	
+	
 });

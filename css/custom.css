@@ -175,3 +175,6 @@ body.searchtempest-home .form-container .post-label {
 .site-footer{
   margin-top:15px;
 }
+.form-container .select-input{
+  display:none;
+}
