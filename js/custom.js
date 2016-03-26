@@ -32,7 +32,7 @@ $(document).ready(function(){
 		var location = $("#location").val();
 		for (var key in cities) {
 			if(key == location){
-				location = cities[key]);
+				location = cities[key];
 			}
         }
 		var search_string = $("#search_string").val();
