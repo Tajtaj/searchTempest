@@ -130,3 +130,16 @@ body.searchtempest-home .button, body.searchtempest-home button, body.searchtemp
 body.searchtempest-home input[type="reset"], body.searchtempest-home input[type="submit"] {
   background: #606c76;
 }
+.select-input {
+  display: inline-block;
+  width: 100%;
+}
+body.searchtempest-home .form-container select {
+  float: left;
+  margin-right: 15px;
+  width: 90%;
+}
+body.searchtempest-home .form-container .post-label {
+  display: inline-block;
+  line-height: 35px;
+}
