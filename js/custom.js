@@ -30,7 +30,7 @@ $(document).ready(function(){
 		//console.log(cities[i]);
 	}
 	// Processing form
-	$("#fullsearch-btn").click(function(){
+	$('#search_form').submit(function() {
 		var location = $("#location").val();
 		var search_string = $("#search_string").val();
 		var min_price = $("#minAsk8").val();
