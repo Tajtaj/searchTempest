@@ -45,6 +45,7 @@ function googleCSELoaded() {
     console.log(searchText);
     var element = google.search.cse.element.getElement('searchOnlyCSE');
     element.execute(searchText);
+	return false;
   })
 }
 
