@@ -45,7 +45,7 @@ function googleCSELoaded() {
     console.log(searchText);
     var element = google.search.cse.element.getElement('searchOnlyCSE');
     element.execute(searchText);
-  })
+  });
 }
 
 // CSE Code. This is a free version, so please don't make too many requests.
