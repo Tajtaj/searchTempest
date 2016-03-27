@@ -4,7 +4,7 @@ window.__gcse = {
 }; 
 function googleCSELoaded() {
   // The hook in question.
-  $("#fullsearch-btn").click(function() {
+  $("#fullsearch-btn").submit(function() {
 	  	var cities = {
 			30301:"atlanta",
 			73301:"austin",
