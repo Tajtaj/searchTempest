@@ -1,6 +1,11 @@
-$(document).ready(function(){
-	console.log("Ready...");
-	var cities = {
+//Hook a callback into the rendered Google Search. From my understanding, this is possible because the outermost rendered div has id of "___gcse_0".
+window.__gcse = {
+  callback: googleCSELoaded
+}; 
+function googleCSELoaded() {
+  // The hook in question.
+  $("#search_form").click(function() {
+	  	var cities = {
 			30301:"atlanta",
 			73301:"austin",
 			02108:"boston",
@@ -25,10 +30,7 @@ $(document).ready(function(){
 			94101:"sfbay",
 			20001:"washingtondc"
 	}
-
-	// Processing form
-	$('#search_form').submit(function() {
-		var location = $("#location").val();
+	  var location = $("#location").val();
 		for (var key in cities) {
 			if(key == location){
 				location = cities[key];
@@ -39,11 +41,22 @@ $(document).ready(function(){
 		var max_price = $("#maxAsk8").val();
 		var min_year = $("#minYear8").val();
 		var max_year = $("#maxYear8").val();
-		console.log("Location:"+location+"\n Search:"+search_string+"\n Min price:"+min_price+"\n Max price"+max_price
-		+"\n Min year:"+min_year+"\n Max year:"+max_year+"\n"
-		);
-		return false;
-	});
-	
-	
-});
+		var searchText = "site:"+location+".craigslist.org"+" "+search_string+" "+"$"+min_price+".."+max_price+" "+"odometer:"+min_year+".."+max_year+" "+"filetype:html";
+    console.log(searchText);
+    var element = google.search.cse.element.getElement('searchOnlyCSE');
+    element.execute(searchText);
+  })
+}
+
+// CSE Code. This is a free version, so please don't make too many requests.
+(function() {
+  //var cx = '001386805071419863133:cb1vfab8b4y';
+	var cx = '014940883816157527715:_1dsxowig5w';
+  var gcse = document.createElement('script');
+  gcse.type = 'text/javascript';
+  gcse.async = true;
+  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gcse, s);
+})();
+
