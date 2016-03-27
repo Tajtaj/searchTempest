@@ -5,6 +5,7 @@ window.__gcse = {
 function googleCSELoaded() {
   // The hook in question.
   $("#fullsearch-btn").submit(function() {
+	  console.log("Ready....");
 	  	var cities = {
 			30301:"atlanta",
 			73301:"austin",
