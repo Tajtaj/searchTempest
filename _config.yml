@@ -1,7 +1,7 @@
-title: Search Tempest
-email: tajdar.afridi123@gmail.com
-description: A simple theme for searchTempest
-baseurl: "/searchTempest"  
+title: Search Demo
+email: fazalmalik21@gmail.com
+description: A simple theme for SearchDemo
+baseurl: "/SearchDemo"  
 exclude: ['README.md']
 
 # Build settings

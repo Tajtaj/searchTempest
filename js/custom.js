@@ -5,6 +5,7 @@ window.__gcse = {
 function googleCSELoaded() {
   // The hook in question.
   $("#fullsearch-btn").click(function() {
+	$("#advance-search-container").slideUp();
 	var cities = {
 			30301:"atlanta",
 			73301:"austin",
@@ -61,7 +62,10 @@ function googleCSELoaded() {
   s.parentNode.insertBefore(gcse, s);
 })();
 $(document).ready(function(){
-	console.log("Ready...");
+	$(".advance-btn").click(function(){
+	  console.log("Marking..");
+      $("#advance-search-container").slideToggle();
+    });
 	var cities = {
 			30301:"atlanta",
 			73301:"austin",
