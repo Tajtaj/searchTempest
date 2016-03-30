@@ -43,7 +43,7 @@ function googleCSELoaded() {
 		var max_price = $("#maxAsk8").val();
 		var min_year = $("#minYear8").val();
 		var max_year = $("#maxYear8").val();
-		var searchText = "site:"+location+".craigslist.org"+" "+search_string+" "+"$"+min_price+".."+max_price+" "+"odometer:"+min_year+".."+max_year+" "+"filetype:html";
+		var searchText = "site:"+location+".craigslist.org"+" "+search_string+" "+"$"+min_price+".."+max_price+" "+"odometer:"+min_year+".."+max_year+" "+"filetype:html"+search_distance=50;
     console.log(searchText);
     var element = google.search.cse.element.getElement('searchOnlyCSE');
     element.execute(searchText);
